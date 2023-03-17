@@ -1,6 +1,5 @@
 # RichardLab-Weather
 ![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=Richard233n&show_icons=true&theme=tokyonight)
-<!-- ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=ubrong&theme=tokyonight)  -->
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=Richard233n&theme=tokyonight)
 ## 这是一个天气App的模板 
 这是一个 天气App的模板，使用免费的vue天气Api构建
