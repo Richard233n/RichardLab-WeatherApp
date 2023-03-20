@@ -6,6 +6,7 @@
 ## 技术栈
 
 **搭建:** HTML, CSS, JavaScript, API<br>
+
 ![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=Richard233n&show_icons=true&theme=tokyonight)
 <br>
 ![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=Richard233n&theme=tokyonight)
