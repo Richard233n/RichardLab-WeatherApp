@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Richard Lab Weather</title>
+        <!-- <meta name="description" content="一个天气app"> -->
+    </head>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;
+    6008display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/app.js" type="module"></script>
+    <script src="./assets/js/route.js" type="module"></script>
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <img src="./assets//images/logo4.jpg" width="364" height="58" class="logo-head">
+            <div class="container">
+                <a href="#">
+                    <img src="./assets//images/logo3.png" width="364" height="58" alt="logo">
+
+                </a>
+
+
+                <div class="search-view active" data-search-view>
+
+                    <div class="search-wrapper">
+                        <input type="search" name="search" placeholder="搜索城市..." autocomplete="off" class="search-field"
+                            data-search-field>
+
+                        <span class="m-icon">search</span>
+                        <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler>
+                            <span class="m-icon">arrow_back</span>
+                        </button>
+                    </div>
+
+                    <div class="search-result" data-search-result>
+                        <ul class="view-list" data-search-list>
+
+                            <li class="view-item">
+                                <span class="m-icon">location_on</span>
+                                <div>
+                                    <p class="item-title">北京</p>
+                                    <p class="label-2 item-subtitle">中国</p>
+                                </div>
+                                <a href="#" class="item-link has-state" data-search-toggler>
+
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="header-actions">
+
+                    <button class="icon-btn has-state" area-label="open search" data-search-toggler>
+                        <span class="m-icon" icon>search</span>
+                    </button>
+
+                    <a href="#/current-location" class="btn-primary has-state" data-current-location-btn>
+
+                        <span class="m-icon">my_location</span>
+
+                        <span class="span">当前位置</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </body>
+
+</html>
