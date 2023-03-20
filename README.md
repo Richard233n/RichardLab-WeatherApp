@@ -1,4 +1,4 @@
-# RichardLab-Weather
+# RichardLab-WeatherApp
 ## 这是一个天气App的模板 
 这是一个 天气App的模板，使用免费的vue天气Api构建
 
