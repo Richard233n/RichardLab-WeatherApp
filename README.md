@@ -1,61 +1,12 @@
+# RichardLab-Weather
+![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=Richard233n&show_icons=true&theme=tokyonight)
+<br>
+![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=Richard233n&theme=tokyonight)
+## 这是一个天气App的模板 
+这是一个 天气App的模板，使用免费的vue天气Api构建
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
-## Tech Stack
+页面分类参考的是Youtube上Vue后台项目的主界面
+## 技术栈
 
 **搭建:** HTML, CSS, JavaScript, API
 
-## Demo
-
-Insert gif or link to demo
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Open with VSCode
-
-```bash
-  code .
-```
-
-Open with live server
-
-```bash
-  npm run start
-```
-
-
-## Authors
-
-- [@codewithsadee](https://www.github.com/codewithsadee)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Support
-
-For support, Join my [Patreon Comunity](https://www.patreon.com/codewithsadee/membership) or Subscribe My [YouTube Channel](https://youtube.com/@codewithsadee).
