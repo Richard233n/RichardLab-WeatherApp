@@ -54,12 +54,25 @@ PM
 
 Good
 
-Sunrise & Sunset
+Sunrise&Sunset
+<span class="m-icon">clear_day</span>
 Sunrise
+6:30AM
+<span class="m-icon">clear_night</span>
 Sunset
-6:30 AM
-5:54 PM
-
+5:54PM
+Humidity
+<span class="m-icon">humidity_percentage</span>
+35%
+Pressure
+<span class="m-icon">airwave</span>
+1052hPa
+Visibility
+<span class="m-icon">visibility</span>
+10km
+Feels Like
+<span class="m-icon">thermostat</span>
+25&deg;C
 
 
 #---------- HOURLY FORECAST ----------#

@@ -536,7 +536,7 @@ article.container::before {
 
 
 /*-----------------------------------*\
-  #CURRENT WEATHER
+  #当前天气
 \*-----------------------------------*/
 .current-weather-card .weapper {
     margin-block: 12px;
@@ -568,28 +568,99 @@ article.container::before {
 .current-weather-card .meta-item:not(:last-child) {
     margin-block-end: 12px;
 }
-.current-weather-card .meta-text{
-color: var(--on-surface-variant);
+
+.current-weather-card .meta-text {
+    color: var(--on-surface-variant);
+}
+
+
+/*-----------------------------------*\
+  #强调
+\*-----------------------------------*/
+.forecast-card .title-2 {
+    margin-block-end: 0;
+}
+
+.forecast-card :is(.card-item, .icon-wrapper) {
+    display: flex;
+    align-items: center;
+}
+
+.forecast-card .card-item:not(:last-child) {
+    margin-block-end: 12px;
+
+}
+
+.forecast-card .icon-wrapper {
+    gap: 8px;
+}
+
+.forecast-card .label-1 {
+    color: var(--on-surface-variant);
+}
+
+.forecast-card .card-item>.label-1 {
+    width: 100%;
+    text-align: right;
 }
 
 /*-----------------------------------*\
-  #HIGHLIGHTS
+  #每小时预报
 \*-----------------------------------*/
+.highlights .m-icon {
+    font-size: 3.2rem;
+}
 
+.highlight-list {
+    display: grid;
+    gap: 20px;
+}
 
+.highlight-list .title-3 {
+    color: var(--on-surface-variant);
+    margin-block-end: 20px;
+}
 
+.highlight-list .card-sm {
+    background-color: var(--black-alpha-10);
+    position: relative;
+}
+
+.highlight-card:is(.wrapper, .card-list, .card-item) {
+    display: flex;
+    align-items: center;
+}
+
+.highlight-card .wrapper {
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.highlight-card .card-list {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    row-gap: 8px;
+}
+
+.highlight-card .card-item {
+    width: 50%;
+    justify-content: flex-end;
+    gap: 4px;
+}
+
+.highlight-card .label-1 {
+    color: var(--on-surface-variant);
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
 
 
 /*-----------------------------------*\
-  #HOURLY FORECAST
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #FORECAST
+  #预报
 \*-----------------------------------*/
 
 
